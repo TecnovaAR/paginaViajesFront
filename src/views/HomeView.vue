@@ -28,7 +28,7 @@
           </div>
           <div class="mt-7">
             <a
-              class="rounded border border-white bg-transparent px-6 py-1 font-semibold text-white"
+              class="rounded border border-white bg-transparent px-6 py-1 font-semibold text-white hover:cursor-pointer"
             >
               Cotizar
             </a>
