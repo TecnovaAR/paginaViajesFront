@@ -1,7 +1,7 @@
 <template>
   <div class="mx-4 flex justify-center md:mx-10 xl:mx-20">
     <div
-      class="flex flex-col items-center justify-center gap-5 md:flex-row lg:max-w-screen-lg xl:max-w-screen-xl xl:gap-20 2xl:max-w-screen-2xl 3xl:max-w-screen-3xl 4xl:max-w-screen-4xl 5xl:max-w-screen-5xl"
+      class="flex flex-col items-center justify-center gap-5 md:flex-row lg:max-w-screen-lg xl:max-w-screen-xl xl:gap-20 2xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl 5xl:max-w-screen-4xl"
     >
       <div class="flex w-2/3 items-center justify-center md:w-full md:basis-1/4 xl:basis-1/3">
         <img src="src/assets/img/team1.png" alt="" class="rounded-full" />

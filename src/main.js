@@ -19,6 +19,8 @@ import {
   faCircleChevronDown
 } from '@fortawesome/free-solid-svg-icons'
 
+import { faStar } from '@fortawesome/free-regular-svg-icons'
+
 library.add(
   faFacebook,
   faInstagram,
@@ -27,7 +29,8 @@ library.add(
   faEnvelope,
   faMobile,
   faLocationDot,
-  faCircleChevronDown
+  faCircleChevronDown,
+  faStar
 )
 
 const app = createApp(App)
