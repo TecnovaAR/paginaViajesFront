@@ -1,100 +1,155 @@
 <template>
   <div>
-    <Navbar />
+    <MainCarousel :slides="slides" />
 
-    <!-- Header -->
-    <header>
-      <swiper
-        :slidesPerView="1"
-        :spaceBetween="30"
-        :loop="true"
-        :navigation="true"
-        class="swiper"
-        :modules="modules"
+    <!-- Cards Container -->
+    <div class="bg-[url(src/assets/img/back-pattern1.png)] bg-cover bg-center px-4 pb-20">
+      <div
+        class="mx-auto grid gap-6 md:grid-cols-2 lg:max-w-2xl lg:grid-cols-4 xl:max-w-6xl 3xl:max-w-8xl 4xl:max-w-10xl 5xl:max-w-11xl"
       >
-        <!-- Slides -->
-        <swiper-slide v-for="(slide, index) in slides" :key="index">
-          <div class="h-120 w-full bg-cover bg-center" :class="slide.bgClass"></div>
-        </swiper-slide>
-
-        <!-- Text -->
-        <div class="swiper-text w-5/6">
-          <div>
-            <h2 class="text-2xl font-medium uppercase text-white">Viaja a europa</h2>
-            <p class="mt-3 font-playfair text-4xl font-bold text-white">Lorem Ipsum Dolor</p>
-            <p class="mt-5 text-xl uppercase text-white">
-              Desde <span class="font-bold">$30,000MXN</span>
-            </p>
-          </div>
-          <div class="mt-7">
-            <a
-              class="rounded border border-white bg-transparent px-6 py-1 font-semibold text-white hover:cursor-pointer"
-            >
-              Cotizar
-            </a>
-          </div>
-        </div>
-      </swiper>
-    </header>
-
-    <!-- Main -->
-    <main>
-      <div class="container mx-auto">
-        <div class="flex flex-col items-center justify-center">
-          <h2 class="text-center text-2xl font-medium uppercase">Lorem ipsum dolor sit amet</h2>
-          <p class="mt-3 text-center text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-          </p>
-        </div>
+        <CardMain />
+        <CardMain class="mt-6 md:-mt-20" />
+        <CardMain class="mt-6 lg:-mt-20" />
+        <CardMain class="mt-6 lg:-mt-20" />
       </div>
-    </main>
+    </div>
+
+    <div
+      class="my-8 py-4 md:p-10 lg:mb-0 lg:p-20 2xl:p-32 3xl:p-36 4xl:flex 4xl:items-center 4xl:justify-center"
+    >
+      <RectangleCard :cardContent="cardContent" />
+    </div>
+
+    <div
+      class="relative flex h-150 w-full items-center justify-center xl:h-160 2xl:h-180 4xl:h-220 5xl:h-260"
+    >
+      <div class="h-full basis-1/4 md:bg-primary"></div>
+      <div class="basis-3/4"></div>
+      <TreeCardsCarousel :cardContent="threeCards" class="absolute" />
+    </div>
+
+    <div class="pt-24">
+      <Team />
+    </div>
+
+    <Curved :content="curvedContent" />
+
+    <div class="relative bg-[#fff] py-5">
+      <div
+        class="relative z-2 mx-4 my-12 grid gap-5 lg:mx-auto lg:max-w-screen-md lg:grid-cols-2 xl:max-w-screen-lg xl:gap-10 2xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl 5xl:max-w-screen-4xl"
+      >
+        <CardHorizontal v-for="text in cardHorizontal" :cardContent="text" :key="text.title" />
+      </div>
+      <div class="absolute right-0 top-0 h-full w-1/4 bg-primary"></div>
+    </div>
+
+    <Contact1 :textContent="contactInfo" />
   </div>
 </template>
 
 <script>
-import { ref } from 'vue'
-
-// Import Navbar component
-import Navbar from '../components/Navbar.vue'
-
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue'
-
-// Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/navigation'
-
-// Import required modules
-import { Navigation } from 'swiper'
-
-let slides = [
-  { bgClass: 'bg-heroPattern1' },
-  { bgClass: 'bg-heroPattern2' },
-  { bgClass: 'bg-heroPattern3' },
-  { bgClass: 'bg-heroPattern4' }
-]
+import MainCarousel from '../components/MainCarousel.vue'
+import CardMain from '../components/CardMain.vue'
+import RectangleCard from '../components/RectangleCard.vue'
+import TreeCardsCarousel from '../components/TreeCardsCarousel.vue'
+import Team from '../components/Team.vue'
+import Curved from '../components/Curved.vue'
+import CardHorizontal from '../components/CardHorizontal.vue'
+import Contact1 from '../components/Contact1.vue'
 
 export default {
   name: 'HomeView',
   setup() {
     return {
-      modules: [Navigation],
-      slides
+      slides: [
+        { bgClass: 'bg-heroPattern1' },
+        { bgClass: 'bg-heroPattern2' },
+        { bgClass: 'bg-heroPattern3' },
+        { bgClass: 'bg-heroPattern4' }
+      ],
+      cardContent: [
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        }
+      ],
+      threeCards: [
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        }
+      ],
+      curvedContent: {
+        title: 'Lorem ipsum dolor sit amet',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+      },
+      cardHorizontal: [
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          price: '$100 MXN'
+        },
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          price: '$1,000 MXN'
+        },
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          price: '$1,500 MXN'
+        },
+        {
+          title: 'Lorem ipsum dolor sit amet',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          price: '$2,000 MXN'
+        }
+      ],
+      contactInfo: {
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        phone: '+55 123 454 5678',
+        email: 'email@gmail.com',
+        address:
+          'Av Fray Luis de León 8051, Centro Sur 76090 Querétaro Centro, Querétaro Arteaga, México.'
+      }
     }
   },
   components: {
-    Navbar,
-    Swiper,
-    SwiperSlide
+    MainCarousel,
+    CardMain,
+    RectangleCard,
+    TreeCardsCarousel,
+    Team,
+    Curved,
+    CardHorizontal,
+    Contact1
   }
 }
 </script>
-
-<!-- <div class="flex items-center justify-center">
-  <div class="text-center">
-    <h2 class="text-2xl font-bold uppercase text-white">Viaja a europa</h2>
-    <p class="font-playfair text-4xl font-bold uppercase leading-10 text-white">
-      Lorem ipsum dolor
-    </p>
-  </div>
-</div> -->
