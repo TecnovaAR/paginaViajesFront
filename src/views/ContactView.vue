@@ -1,5 +1,9 @@
 <template>
   <div
+    class="h-52 w-full bg-heroPattern1 bg-cover bg-center sm:h-52 lg:h-64 2xl:h-72 4xl:h-110 5xl:h-140"
+  ></div>
+
+  <div
     class="items-center justify-center px-4 md:py-10 lg:flex lg:flex-col lg:py-18 xl:py-28 3xl:py-36"
   >
     <div

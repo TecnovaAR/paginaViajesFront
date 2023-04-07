@@ -7,6 +7,7 @@ import SecondLayout from '../layouts/SecondLayout.vue'
 // Views
 import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/ContactView.vue'
+import PackagesView from '../views/PackagesView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,6 +31,17 @@ const router = createRouter({
           path: '',
           name: 'contact',
           component: ContactView
+        }
+      ]
+    },
+    {
+      path: '/paquetes',
+      component: SecondLayout,
+      children: [
+        {
+          path: '',
+          name: 'packages',
+          component: () => PackagesView
         }
       ]
     }

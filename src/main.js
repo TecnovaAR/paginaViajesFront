@@ -12,9 +12,23 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 // Icons to be imported
 import { faFacebook, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faMobile, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faMobile,
+  faLocationDot,
+  faCircleChevronDown
+} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faFacebook, faInstagram, faLinkedin, faYoutube, faEnvelope, faMobile, faLocationDot)
+library.add(
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+  faEnvelope,
+  faMobile,
+  faLocationDot,
+  faCircleChevronDown
+)
 
 const app = createApp(App)
 

@@ -1,8 +1,5 @@
 <template>
   <Navbar />
-  <div
-    class="h-52 w-full bg-heroPattern1 bg-cover bg-center sm:h-52 lg:h-64 2xl:h-72 4xl:h-110 5xl:h-140"
-  ></div>
   <router-view />
   <Footer :footerContent="footerContent" />
 </template>
