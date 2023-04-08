@@ -9,7 +9,7 @@ import HomeView from '../views/HomeView.vue'
 import ContactView from '../views/ContactView.vue'
 import PackagesView from '../views/PackagesView.vue'
 import AboutUsView from '../views/AboutUsView.vue'
-import TripView from '../views/TripView.vue'
+import PersonalizeTripView from '../views/PersonalizeTripView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -64,8 +64,8 @@ const router = createRouter({
       children: [
         {
           path: '',
-          name: 'trip',
-          component: () => TripView
+          name: 'personalize',
+          component: () => PersonalizeTripView
         }
       ]
     }

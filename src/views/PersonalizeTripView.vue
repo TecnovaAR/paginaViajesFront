@@ -29,7 +29,7 @@ import TreeCardsCarousel from '../components/TreeCardsCarousel.vue'
 import RectangleCard from '../components/RectangleCard.vue'
 
 export default {
-  name: 'TripView',
+  name: 'PersonalizeTripView',
   setup() {
     return {
       threeCards: [
