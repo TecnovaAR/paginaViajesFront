@@ -16,7 +16,9 @@ import {
   faEnvelope,
   faMobile,
   faLocationDot,
-  faCircleChevronDown
+  faCircleChevronDown,
+  faCircleChevronLeft,
+  faCircleChevronRight
 } from '@fortawesome/free-solid-svg-icons'
 
 import { faStar } from '@fortawesome/free-regular-svg-icons'
@@ -30,7 +32,9 @@ library.add(
   faMobile,
   faLocationDot,
   faCircleChevronDown,
-  faStar
+  faStar,
+  faCircleChevronLeft,
+  faCircleChevronRight
 )
 
 const app = createApp(App)
