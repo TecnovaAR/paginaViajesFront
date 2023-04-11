@@ -18,12 +18,6 @@
           {{ link.name }}
         </a>
       </div>
-
-      <div>
-        <a class="uppercase hover:text-white-500 md:text-lg 4xl:text-xl" href="#">
-          Iniciar sesión
-        </a>
-      </div>
     </div>
 
     <div

@@ -40,28 +40,14 @@
           <router-link
             v-for="link in links"
             :key="link.name"
-            class="inline-block p-4 hover:text-white-500 2xl:text-xl 4xl:text-2xl 5xl:text-3xl"
+            class="inline-block p-4 uppercase hover:text-white-500 2xl:text-xl 4xl:text-2xl 5xl:text-3xl"
             :class="{ 'hover:text-white-500': !menu }"
             :to="link.to"
             :label="link.name"
           >
             {{ link.name }}
           </router-link>
-
-          <!-- Log in -->
-          <router-link
-            class="inline-block p-4 hover:text-white-500"
-            to="#"
-            :class="{ hidden: menu }"
-          >
-            Iniciar sesión
-          </router-link>
         </nav>
-      </div>
-
-      <!-- Log in -->
-      <div class="hidden hover:text-white-500 lg:block 2xl:text-xl 4xl:text-2xl 5xl:text-3xl">
-        <a href="#">Iniciar sesión</a>
       </div>
     </div>
   </div>
@@ -79,8 +65,8 @@ export default {
       menu,
       links: [
         { name: 'Inicio', to: '#' },
-        { name: 'Personaliza tu viaje', to: '#' },
-        { name: 'Paquetes', to: '#' },
+        { name: 'Tiempos compartidos', to: '#' },
+        { name: 'Destinos', to: '#' },
         { name: 'Sobre nosotros', to: '#' },
         { name: 'Contacto', to: '#' }
       ]

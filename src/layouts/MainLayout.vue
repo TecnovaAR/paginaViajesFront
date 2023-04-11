@@ -15,8 +15,7 @@ export default {
       footerContent: {
         links: [
           { name: 'Inicio', to: '#' },
-          { name: 'Personaliza tu viaje', to: '#' },
-          { name: 'Paquetes', to: '#' },
+          { name: 'Tiempos compartidos', to: '#' },
           { name: 'Sobre nosotros', to: '#' },
           { name: 'Contacto', to: '#' }
         ],
