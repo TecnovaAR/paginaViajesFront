@@ -16,6 +16,15 @@
     margin-right: auto;
   }
 
+  .swiper.swiperMain .swiper-slide {
+    text-align: center;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .swiperTreeCards {
     width: 100%;
     height: auto;
@@ -26,7 +35,7 @@
   }
 
   .swiperRectangle {
-    background: #4b03a6;
+    background: #0069b5;
     width: 75%;
   }
 }
