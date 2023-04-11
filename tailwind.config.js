@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        '2xl': '1440px',
         '3xl': '1920px',
         '4xl': '2560px',
         '5xl': '3840px'
@@ -24,16 +23,16 @@ module.exports = {
         },
         black: '#303030',
         primary: {
-          DEFAULT: '#4B03A6',
-          100: 'rgba(75, 3, 166, 0.1)',
-          200: 'rgba(75, 3, 166, 0.2)',
-          300: 'rgba(75, 3, 166, 0.3)',
-          400: 'rgba(75, 3, 166, 0.4)',
-          500: 'rgba(75, 3, 166, 0.5)',
-          600: 'rgba(75, 3, 166, 0.6)',
-          700: 'rgba(75, 3, 166, 0.7)',
-          800: 'rgba(75, 3, 166, 0.8)',
-          900: 'rgba(75, 3, 166, 0.9)'
+          DEFAULT: '#0069B5',
+          100: 'rgba(0, 105, 181, 0.1)',
+          200: 'rgba(0, 105, 181, 0.2)',
+          300: 'rgba(0, 105, 181, 0.3)',
+          400: 'rgba(0, 105, 181, 0.4)',
+          500: 'rgba(0, 105, 181, 0.5)',
+          600: 'rgba(0, 105, 181, 0.6)',
+          700: 'rgba(0, 105, 181, 0.7)',
+          800: 'rgba(0, 105, 181, 0.8)',
+          900: 'rgba(0, 105, 181, 0.9)'
         },
         gray: {
           DEFAULT: '#666666',
@@ -54,13 +53,21 @@ module.exports = {
       },
       backgroundImage: {
         heroPattern1:
-          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/back1.png')",
+          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/CANCUN VIDANTA GRAN MAYAN/CANCUN_VIDANTA_GRAN_MAYAN_3.jpg')",
         heroPattern2:
-          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/back1.png')",
+          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/CARACAS MELIA MARRIOT/CARACAS_MELIA_MARRIOT_1.jpg')",
         heroPattern3:
-          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/back1.png')",
+          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/HYATT REGENCY/HYATT_REGENCY_1.jpg')",
         heroPattern4:
-          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/back1.png')"
+          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/FLORIDA WINDMAN- HYATT/FLORIDA_WINDMAN- HYATT_5.jpg')",
+        heroPattern5:
+          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/LAS VEGAS CEASARS PALACE/LAS_VEGAS_CEASARS_PALACE_1.jpg')",
+        heroPattern6:
+          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/LOS CABOS VIDANTA/LOS_CABOS_VIDANTA_1.jpg')",
+        heroPattern7:
+          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/MAZATLAN VIDANTA  Y MAYAN PALACE/MAZATLAN_VIDANTA_3.jpg')",
+        heroPattern8:
+          "linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 100%), url('./src/assets/img/VALLARTA VIDANTA GRAN LUXX/VALLARTA_ VIDANTA_GRAN_LUXX_2.jpg')"
       },
       height: {
         100: '25rem',
@@ -125,6 +132,9 @@ module.exports = {
         '10xl': '104rem',
         '11xl': '112rem',
         '12xl': '120rem'
+      },
+      fontSize: {
+        '10xl': '10rem'
       }
     }
   },
