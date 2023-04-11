@@ -16,17 +16,17 @@
         <div
           class="flex w-full items-center justify-center gap-5 text-3xl md:justify-start md:text-4xl xl:text-5xl 3xl:text-6xl"
         >
-          <font-awesome-icon :icon="['fab', 'facebook']" style="color: #4b03a6" />
-          <font-awesome-icon :icon="['fab', 'instagram']" style="color: #4b03a6" />
-          <font-awesome-icon :icon="['fab', 'linkedin']" style="color: #4b03a6" />
-          <font-awesome-icon :icon="['fab', 'youtube']" style="color: #4b03a6" />
+          <font-awesome-icon :icon="['fab', 'facebook']" style="color: #0069b5" />
+          <font-awesome-icon :icon="['fab', 'instagram']" style="color: #0069b5" />
+          <font-awesome-icon :icon="['fab', 'linkedin']" style="color: #0069b5" />
+          <font-awesome-icon :icon="['fab', 'youtube']" style="color: #0069b5" />
         </div>
 
         <div class="mx-6 mt-6 md:mx-auto md:w-full">
           <div class="mb-3 flex items-center justify-start gap-5">
             <font-awesome-icon
               :icon="['fas', 'envelope']"
-              style="color: #4b03a6"
+              style="color: #0069b5"
               class="text-3xl md:text-3xl xl:text-4xl 3xl:text-5xl"
             />
             <p class="text-start lg:text-lg 2xl:text-xl 4xl:text-2xl">
@@ -36,7 +36,7 @@
           <div class="mb-3 flex items-center justify-start gap-5">
             <font-awesome-icon
               :icon="['fas', 'mobile']"
-              style="color: #4b03a6"
+              style="color: #0069b5"
               class="text-3xl md:text-3xl xl:text-4xl 3xl:text-5xl"
             />
             <p class="text-start lg:text-lg 2xl:text-xl 4xl:text-2xl">
@@ -46,7 +46,7 @@
           <div class="mb-3 flex items-center justify-start gap-5">
             <font-awesome-icon
               :icon="['fas', 'location-dot']"
-              style="color: #4b03a6"
+              style="color: #0069b5"
               class="text-3xl md:text-3xl xl:text-4xl 3xl:text-5xl"
             />
             <p class="text-start lg:text-lg xl:w-3/4 2xl:text-xl 4xl:text-2xl">

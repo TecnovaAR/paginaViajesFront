@@ -41,6 +41,8 @@
       </div>
       <div class="absolute right-0 top-0 h-full w-1/4 bg-primary"></div>
     </div>
+
+    <Contact1 :textContent="contactInfo" />
   </div>
 </template>
 
