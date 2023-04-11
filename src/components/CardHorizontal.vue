@@ -1,7 +1,8 @@
 <template>
   <div class="flex flex-col items-center justify-center md:flex-row">
     <div
-      class="h-52 w-full bg-[url(src/assets/img/destino1.png)] bg-cover bg-center md:h-full"
+      class="h-52 w-full bg-cover bg-center md:h-full"
+      :class="'bg-[url(src/assets/img/back1.png)]'"
     ></div>
 
     <div class="bg-white p-5">
@@ -14,13 +15,6 @@
       </p>
 
       <div class="flex w-full flex-wrap items-end justify-between">
-        <div>
-          <p class="text-sm text-primary md:text-base 4xl:text-2xl">Desde</p>
-          <p class="font-semibold text-primary md:text-lg 4xl:text-xl">
-            {{ cardContent.price }}
-          </p>
-        </div>
-
         <div>
           <a
             href="#"

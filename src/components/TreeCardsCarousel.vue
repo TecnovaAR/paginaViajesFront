@@ -8,7 +8,7 @@
         slidesPerView: 2,
         spaceBetween: 100
       },
-      '1024': {
+      '1280': {
         slidesPerView: 3,
         spaceBetween: 100
       }

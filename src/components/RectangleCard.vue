@@ -1,12 +1,12 @@
 <template>
   <div class="mx-4 flex h-auto flex-col md:flex-row 3xl:h-120 4xl:max-w-screen-3xl">
     <div
-      class="flex w-full flex-col items-start justify-center bg-[url(src/assets/img/cta1.png)] p-8 brightness-90 md:basis-3/4 md:p-10 lg:p-12 2xl:p-20"
+      class="flex w-full flex-col items-start justify-center bg-[url(src/assets/img/cta1.png)] p-10 brightness-90 md:basis-3/4 lg:p-12 2xl:p-20"
     >
       <!-- Card Title -->
       <div class="mb-6 4xl:mb-10">
         <h2
-          class="text-left text-2xl font-semibold text-white 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl"
+          class="text-left text-2xl font-semibold text-white md:text-3xl 2xl:text-4xl 3xl:text-5xl 4xl:text-6xl"
         >
           Lorem ipsum dolor sit amet
         </h2>

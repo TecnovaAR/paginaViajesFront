@@ -4,11 +4,11 @@
       <div class="flex flex-col items-center justify-center">
         <!-- Card Star -->
         <div class="mb-4">
-          <img src="src/assets/icons/star-white.svg" class="h-14 4xl:h-20" alt="Star Icon" />
+          <img src="src/assets/icons/star-white.svg" class="h-18 4xl:h-20" alt="Star Icon" />
         </div>
         <!-- Card Title -->
         <div class="mb-4">
-          <h2 class="text-lg font-semibold 2xl:text-xl 3xl:text-2xl 4xl:text-3xl">
+          <h2 class="text-xl font-semibold lg:text-2xl 2xl:text-3xl 4xl:text-4xl">
             {{ text.title }}
           </h2>
         </div>

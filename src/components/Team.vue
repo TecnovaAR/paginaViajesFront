@@ -9,11 +9,10 @@
 
       <div class="mb-2 text-center md:basis-3/4 md:text-left xl:basis-2/3">
         <h2 class="mb-6 text-2xl font-semibold text-primary xl:text-3xl 4xl:text-4xl">
-          Lorem ipsum dolor sit amet
+          {{ content.title }}
         </h2>
         <p class="mb-6 xl:text-xl 4xl:text-2xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin
-          consequat, dui velit placerat ex, et tincidunt ipsum nibh nec risus.
+          {{ content.description }}
         </p>
         <a
           class="rounded border border-black bg-transparent px-8 py-1 text-sm font-semibold uppercase text-black duration-300 ease-in-out hover:cursor-pointer hover:border-white hover:bg-black hover:text-white hover:transition-all 2xl:text-base 3xl:text-lg 4xl:text-xl"
@@ -28,6 +27,9 @@
 <script>
 export default {
   name: 'Team',
+  props: {
+    content: Object
+  },
   setup() {
     return {}
   }
