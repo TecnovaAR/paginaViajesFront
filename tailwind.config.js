@@ -52,6 +52,15 @@ module.exports = {
         playfair: ['Playfair Display', 'serif']
       },
       height: {
+        82: '20.5rem',
+        84: '21rem',
+        86: '21.5rem',
+        88: '22rem',
+        90: '22.5rem',
+        92: '23rem',
+        94: '23.5rem',
+        96: '24rem',
+        98: '24.5rem',
         100: '25rem',
         110: '27.5rem',
         120: '30rem',

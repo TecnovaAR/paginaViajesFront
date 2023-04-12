@@ -4,12 +4,15 @@
   <FourCards />
 
   <Rectangle :content="rectangle" />
+
+  <TreeCardsCarousel :content="treeCards" />
 </template>
 
 <script>
 import MainCarousel from '@/components/Carousels/MainCarousel.vue'
 import FourCards from '@/components/Home/FourCards.vue'
-import Rectangle from '../components/General/Rectangle.vue'
+import Rectangle from '@/components/General/Rectangle.vue'
+import TreeCardsCarousel from '@/components/Carousels/TreeCardsCarousel.vue'
 
 const slideUrl = './src/assets/img/TIEMPOS_COMPARTIDOS/'
 
@@ -70,13 +73,88 @@ export default {
             desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
           }
         ]
-      }
+      },
+      treeCards: [
+        {
+          url: 'DESTINOS/ORLANDO/ORLANDO_1.jpg',
+          title: 'Orlando',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/MIAMI/MIAMI_2.jpg',
+          title: 'Miami',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/FLORIDA/FLORIDA_1.jpg',
+          title: 'Florida',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/CABOS/CABOS_3.jpg',
+          title: 'Cabos',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/PANAMA/PANAMA_1.webp',
+          title: 'Panama',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/MAZATLAN/MAZATLAN_2.jpg',
+          title: 'Mazatlan',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/CANCUN/CANCUN_3.jpg',
+          title: 'Cancun',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/PUERTO_VALLARTA/PUERTO_VALLARTA_2.jpg',
+          title: 'Puerto Vallarta',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/PUERTO_PENASCO/PUERTO_PENASCO_2.jpg',
+          title: 'Puerto Penasco',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/IXTAPA/IXTAPA_1.jpg',
+          title: 'Ixtapa',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/CARACAS/CARACAS_1.jpg',
+          title: 'Caracas',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: 'DESTINOS/CARTAGENA/CARTAGENA_2.jpg',
+          title: 'Cartagena',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        }
+      ]
     }
   },
   components: {
     MainCarousel,
     FourCards,
-    Rectangle
+    Rectangle,
+    TreeCardsCarousel
   }
 }
 </script>
