@@ -9,3 +9,9 @@
     font-family: 'Inter', sans-serif;
   }
 }
+
+.curved {
+  position: relative;
+  border-bottom-left-radius: 30% 90%;
+  border-bottom-right-radius: 30% 90%;
+}
