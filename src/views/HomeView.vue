@@ -52,6 +52,22 @@ export default {
           {
             title: 'Lorem ipsum',
             desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+          },
+          {
+            title: 'Lorem ipsum',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+          },
+          {
+            title: 'Lorem ipsum',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+          },
+          {
+            title: 'Lorem ipsum',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+          },
+          {
+            title: 'Lorem ipsum',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
           }
         ]
       }
