@@ -10,8 +10,9 @@
   <Team :content="teamContent" />
 
   <Curved :content="curvedContent" />
-</template>
 
+  <CardsHorizontal :content="horizontalCards" />
+</template>
 <script>
 import MainCarousel from '@/components/Carousels/MainCarousel.vue'
 import FourCards from '@/components/Home/FourCards.vue'
@@ -19,8 +20,9 @@ import Rectangle from '@/components/General/Rectangle.vue'
 import TreeCardsCarousel from '@/components/Carousels/TreeCardsCarousel.vue'
 import Team from '@/components/General/Team.vue'
 import Curved from '@/components/General/Curved.vue'
+import CardsHorizontal from '@/components/General/CardsHorizontal.vue'
 
-const slideUrl = './src/assets/img/TIEMPOS_COMPARTIDOS/'
+const slideUrl = 'src/assets/img/TIEMPOS_COMPARTIDOS/'
 
 export default {
   name: 'HomeView',
@@ -163,7 +165,33 @@ export default {
         title: 'Lorem ipsum dolor sit amet',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
-      }
+      },
+      horizontalCards: [
+        {
+          url: `${slideUrl}VALLARTA_VIDANTA_GRAN_LUXX/VALLARTA_VIDANTA_GRAN_LUXX_2.jpg`,
+          title: 'VALLARTA VIDANTA GRAN LUXX',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: `${slideUrl}MAZATLAN_VIDANTA_Y_MAYAN_PALACE/MAZATLAN_VIDANTA_3.jpg`,
+          title: 'MAZATLÁN VIDANTA Y MAYAN PALACE',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: `${slideUrl}LOS_CABOS_VIDANTA/LOS_CABOS_VIDANTA_1.jpg`,
+          title: 'LOS CABOS VIDANTA',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        },
+        {
+          url: `${slideUrl}LAS_VEGAS_CEASARS_PALACE/LAS_VEGAS_CEASARS_PALACE_1.jpg`,
+          title: 'LAS VEGAS CAESARS PALACE',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+        }
+      ]
     }
   },
   components: {
@@ -172,7 +200,8 @@ export default {
     Rectangle,
     TreeCardsCarousel,
     Team,
-    Curved
+    Curved,
+    CardsHorizontal
   }
 }
 </script>
