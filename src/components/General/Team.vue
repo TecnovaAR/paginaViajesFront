@@ -11,11 +11,11 @@
 
       <div class="mb-2 text-center md:basis-4/6 md:text-left 2xl:basis-7/12 3xl:basis-2/5">
         <h2
-          class="5xl:text-7x mb-6 text-2xl font-semibold text-primary md:text-3xl lg:text-4xl 2xl:text-5xl 4xl:text-6xl"
+          class="mb-6 text-2xl font-semibold text-primary md:text-3xl lg:text-4xl 2xl:text-5xl 4xl:text-6xl 5xl:text-7xl"
         >
           {{ content.title }}
         </h2>
-        <p class="mb-6 xl:text-xl 4xl:text-2xl">
+        <p class="mb-6 xl:text-xl 3xl:text-2xl 4xl:text-3xl">
           {{ content.description }}
         </p>
         <a
