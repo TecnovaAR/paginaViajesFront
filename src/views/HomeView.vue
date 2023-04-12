@@ -6,6 +6,8 @@
   <Rectangle :content="rectangle" />
 
   <TreeCardsCarousel :content="treeCards" />
+
+  <Team :content="teamContent" />
 </template>
 
 <script>
@@ -13,6 +15,7 @@ import MainCarousel from '@/components/Carousels/MainCarousel.vue'
 import FourCards from '@/components/Home/FourCards.vue'
 import Rectangle from '@/components/General/Rectangle.vue'
 import TreeCardsCarousel from '@/components/Carousels/TreeCardsCarousel.vue'
+import Team from '@/components/General/Team.vue'
 
 const slideUrl = './src/assets/img/TIEMPOS_COMPARTIDOS/'
 
@@ -147,14 +150,20 @@ export default {
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
         }
-      ]
+      ],
+      teamContent: {
+        title: 'Lorem ipsum dolor sit amet',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec risus.'
+      }
     }
   },
   components: {
     MainCarousel,
     FourCards,
     Rectangle,
-    TreeCardsCarousel
+    TreeCardsCarousel,
+    Team
   }
 }
 </script>
