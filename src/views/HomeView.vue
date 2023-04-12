@@ -8,6 +8,8 @@
   <TreeCardsCarousel :content="treeCards" />
 
   <Team :content="teamContent" />
+
+  <Curved :content="curvedContent" />
 </template>
 
 <script>
@@ -16,6 +18,7 @@ import FourCards from '@/components/Home/FourCards.vue'
 import Rectangle from '@/components/General/Rectangle.vue'
 import TreeCardsCarousel from '@/components/Carousels/TreeCardsCarousel.vue'
 import Team from '@/components/General/Team.vue'
+import Curved from '@/components/General/Curved.vue'
 
 const slideUrl = './src/assets/img/TIEMPOS_COMPARTIDOS/'
 
@@ -155,6 +158,11 @@ export default {
         title: 'Lorem ipsum dolor sit amet',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec risus.'
+      },
+      curvedContent: {
+        title: 'Lorem ipsum dolor sit amet',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
       }
     }
   },
@@ -163,7 +171,8 @@ export default {
     FourCards,
     Rectangle,
     TreeCardsCarousel,
-    Team
+    Team,
+    Curved
   }
 }
 </script>
