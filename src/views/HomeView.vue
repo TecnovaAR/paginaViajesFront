@@ -12,6 +12,8 @@
   <Curved :content="curvedContent" />
 
   <CardsHorizontal :content="horizontalCards" />
+
+  <Contact />
 </template>
 <script>
 import MainCarousel from '@/components/Carousels/MainCarousel.vue'
@@ -21,6 +23,7 @@ import TreeCardsCarousel from '@/components/Carousels/TreeCardsCarousel.vue'
 import Team from '@/components/General/Team.vue'
 import Curved from '@/components/General/Curved.vue'
 import CardsHorizontal from '@/components/General/CardsHorizontal.vue'
+import Contact from '@/components/Home/Contact.vue'
 
 const slideUrl = 'src/assets/img/TIEMPOS_COMPARTIDOS/'
 
@@ -201,7 +204,8 @@ export default {
     TreeCardsCarousel,
     Team,
     Curved,
-    CardsHorizontal
+    CardsHorizontal,
+    Contact
   }
 }
 </script>
