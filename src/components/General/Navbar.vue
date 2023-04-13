@@ -1,6 +1,6 @@
 <template>
   <div
-    class="absolute left-0 top-0 z-3 w-full py-5 text-center text-white"
+    class="absolute left-0 top-0 z-3 w-full py-5 text-center text-white lg:bg-transparent"
     :class="{ 'bg-black': !menu, 'bg-transparent': menu }"
   >
     <!-- Navbar Content -->
