@@ -80,18 +80,6 @@
       </div>
     </div>
   </div>
-
-  <!-- <div class="mx-4 my-10 flex flex-col items-center justify-center">
-    <div class="mb-8">
-      <h2 class="mb-4 w-full text-center text-xl font-medium">TIEMPOS COMPARTIDOS</h2>
-
-      <a
-        class="rounded border border-black bg-transparent px-6 py-1 text-sm font-semibold uppercase text-black duration-300 ease-in-out hover:cursor-pointer hover:border-white hover:bg-black hover:text-white hover:transition-all"
-      >
-        VER TIEMPOS COMPARTIDOS
-      </a>
-    </div>
-  </div> -->
 </template>
 
 <script>
