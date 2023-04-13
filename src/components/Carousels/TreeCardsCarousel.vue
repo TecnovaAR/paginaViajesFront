@@ -32,7 +32,7 @@
           }
         }"
         :modules="modules"
-        class="mb-20 flex justify-center px-8 md:my-20 md:max-w-screen-md md:px-14 lg:max-w-screen-lg lg:px-32 2xl:max-w-screen-2xl 3xl:max-w-screen-3xl 3xl:px-48 4xl:my-28 4xl:max-w-screen-4xl 5xl:max-w-screen-4xl 5xl:px-20"
+        class="swiperTreeCards mb-20 flex justify-center px-8 md:my-20 md:max-w-screen-md md:px-14 lg:max-w-screen-lg lg:px-32 2xl:max-w-screen-2xl 3xl:max-w-screen-3xl 3xl:px-48 4xl:my-28 4xl:max-w-screen-4xl 5xl:max-w-screen-4xl 5xl:px-20"
       >
         <swiper-slide v-for="(text, index) in content" :key="index" class="">
           <TreeCarouselCard :cardContent="text" />
@@ -76,20 +76,20 @@ export default {
 </script>
 
 <style>
-.swiper {
+.swiperTreeCards.swiper {
   width: 100%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.swiperTreeCards .swiper-button-next,
+.swiperTreeCards .swiper-button-prev {
   color: #000;
 }
 
 @media (min-width: 768px) {
-  .swiper-button-prev {
+  .swiperTreeCards .swiper-button-prev {
     color: #fff;
   }
 }

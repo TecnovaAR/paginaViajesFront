@@ -56,20 +56,20 @@ export default {
 </script>
 
 <style>
-.swiper {
+.swiperRectangle.swiper {
   width: 100%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.swiper-slide {
+.swiperRectangle .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.swiper-pagination-bullet {
+.swiperRectangle .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   text-align: center;
@@ -80,7 +80,7 @@ export default {
   border: 1px solid #f5f5f5;
 }
 
-.swiper-pagination-bullet-active {
+.swiperRectangle .swiper-pagination-bullet-active {
   color: #fff;
   background: #f5f5f5;
 }

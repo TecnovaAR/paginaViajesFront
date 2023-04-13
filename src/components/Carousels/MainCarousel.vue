@@ -70,8 +70,8 @@ export default {
 </script>
 
 <style>
-.swiper-button-prev,
-.swiper-button-next {
+.swiperMain .swiper-button-prev,
+.swiperMain .swiper-button-next {
   color: #fff;
 }
 </style>
