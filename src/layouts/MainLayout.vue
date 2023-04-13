@@ -13,18 +13,18 @@ export default {
   setup() {
     return {
       navbarLinks: [
-        { name: 'Inicio', to: '#' },
-        { name: 'Tiempos compartidos', to: '#' },
-        { name: 'Destinos', to: '#' },
-        { name: 'Sobre nosotros', to: '#' },
-        { name: 'Contacto', to: '#' }
+        { name: 'Inicio', to: '/' },
+        { name: 'Tiempos compartidos', to: '/sharedTimes' },
+        { name: 'Destinos', to: '/destinations' },
+        { name: 'Sobre nosotros', to: '/aboutUs' },
+        { name: 'Contacto', to: '/contact' }
       ],
       footerContent: {
         links: [
-          { name: 'Inicio', to: '#' },
-          { name: 'Tiempos compartidos', to: '#' },
-          { name: 'Sobre nosotros', to: '#' },
-          { name: 'Contacto', to: '#' }
+          { name: 'Inicio', to: '/' },
+          { name: 'Tiempos compartidos', to: '/sharedTimes' },
+          { name: 'Sobre nosotros', to: '/aboutUs' },
+          { name: 'Contacto', to: '/contact' }
         ],
         social: [
           { name: 'facebook', to: '#' },
