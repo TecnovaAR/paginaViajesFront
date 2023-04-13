@@ -17,10 +17,9 @@
       <div
         class="mb-8 flex w-full justify-between text-4xl lg:justify-stretch lg:gap-5 4xl:text-5xl 5xl:text-6xl"
       >
-        <font-awesome-icon :icon="['fab', 'facebook']" style="color: #0069b5" />
-        <font-awesome-icon :icon="['fab', 'instagram']" style="color: #0069b5" />
-        <font-awesome-icon :icon="['fab', 'linkedin']" style="color: #0069b5" />
-        <font-awesome-icon :icon="['fab', 'youtube']" style="color: #0069b5" />
+        <a v-for="link in social" :href="link.to">
+          <font-awesome-icon :icon="['fab', link.name]" style="color: #0069b5" />
+        </a>
       </div>
       <div class="mb-3 flex items-center justify-center gap-2">
         <div class="flex w-1/12 justify-center">
@@ -68,6 +67,16 @@
 
 <script>
 export default {
-  name: 'Contact'
+  name: 'Contact',
+  setup() {
+    return {
+      social: [
+        { name: 'facebook', to: '#' },
+        { name: 'instagram', to: '#' },
+        { name: 'linkedin', to: '#' },
+        { name: 'youtube', to: '#' }
+      ]
+    }
+  }
 }
 </script>
