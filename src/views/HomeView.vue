@@ -40,37 +40,37 @@ export default {
         {
           url: `${slideUrl}CARACAS_MELIA_MARRIOT/CARACAS_MELIA_MARRIOT_1.jpg`,
           text: 'Caracas Melia Marriot',
-          to: '/sharedTime/'
+          to: '/sharedTime/caracas'
         },
         {
           url: `${slideUrl}HYATT_REGENCY/HYATT_REGENCY_1.jpg`,
           text: 'Hyatt Regency',
-          to: '/sharedTime/'
+          to: '/sharedTime/hyatt'
         },
         {
           url: `${slideUrl}FLORIDA_WINDMAN_HYATT/FLORIDA_WINDMAN_HYATT_5.jpg`,
           text: 'Florida Windman - Hyatt',
-          to: '/sharedTime/'
+          to: '/sharedTime/florida'
         },
         {
           url: `${slideUrl}LAS_VEGAS_CEASARS_PALACE/LAS_VEGAS_CEASARS_PALACE_1.jpg`,
           text: 'Las Vegas Ceasars Palace',
-          to: '/sharedTime/'
+          to: '/sharedTime/lasVegas'
         },
         {
           url: `${slideUrl}LOS_CABOS_VIDANTA/LOS_CABOS_VIDANTA_1.jpg`,
           text: 'Los Cabos Vidanta',
-          to: '/sharedTime/'
+          to: '/sharedTime/losCabos'
         },
         {
           url: `${slideUrl}MAZATLAN_VIDANTA_Y_MAYAN_PALACE/MAZATLAN_VIDANTA_2.jpg`,
           text: 'Mazatlan Vidanta Y Mayan Palace',
-          to: '/sharedTime/'
+          to: '/sharedTime/mazatlan'
         },
         {
           url: `${slideUrl}VALLARTA_VIDANTA_GRAN_LUXX/VALLARTA_VIDANTA_GRAN_LUXX_2.jpg`,
           text: 'Vallarta Vidanta Gran Luxx',
-          to: '/sharedTime/'
+          to: '/sharedTime/vallarta'
         }
       ],
       rectangle: {
@@ -188,25 +188,29 @@ export default {
           url: `${slideUrl}VALLARTA_VIDANTA_GRAN_LUXX/VALLARTA_VIDANTA_GRAN_LUXX_2.jpg`,
           title: 'VALLARTA VIDANTA GRAN LUXX',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/vallarta'
         },
         {
           url: `${slideUrl}MAZATLAN_VIDANTA_Y_MAYAN_PALACE/MAZATLAN_VIDANTA_3.jpg`,
           title: 'MAZATLÁN VIDANTA Y MAYAN PALACE',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/mazatlan'
         },
         {
           url: `${slideUrl}LOS_CABOS_VIDANTA/LOS_CABOS_VIDANTA_1.jpg`,
           title: 'LOS CABOS VIDANTA',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/losCabos'
         },
         {
           url: `${slideUrl}LAS_VEGAS_CEASARS_PALACE/LAS_VEGAS_CEASARS_PALACE_1.jpg`,
           title: 'LAS VEGAS CAESARS PALACE',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/lasVegas'
         }
       ]
     }

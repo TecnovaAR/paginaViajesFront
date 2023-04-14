@@ -19,6 +19,7 @@
           {{ content.description }}
         </p>
         <a
+          href="/contact"
           class="rounded border border-black bg-transparent px-8 py-1 text-sm font-semibold uppercase text-black duration-300 ease-in-out hover:cursor-pointer hover:border-white hover:bg-black hover:text-white hover:transition-all 2xl:text-base 3xl:text-lg 4xl:text-xl"
         >
           Contactar

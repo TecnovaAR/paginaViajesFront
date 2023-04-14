@@ -11,6 +11,7 @@
 
       <div class="flex justify-end sm:basis-1/2">
         <a
+          href="/sharedTimes"
           class="rounded border border-black bg-transparent px-6 py-1 text-sm font-semibold uppercase text-black duration-300 ease-in-out hover:cursor-pointer hover:border-white hover:bg-black hover:text-white hover:transition-all 4xl:text-base"
         >
           VER TIEMPOS COMPARTIDOS

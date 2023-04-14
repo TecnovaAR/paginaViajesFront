@@ -29,7 +29,7 @@ const router = createRouter({
           component: SharedTimesView
         },
         {
-          path: 'sharedTime/',
+          path: 'sharedTime/:name',
           name: 'sharedTime',
           component: SharedTimeView
         },

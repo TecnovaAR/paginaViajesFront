@@ -29,7 +29,7 @@
 
           <div>
             <a
-              href="#"
+              :href="slide.to"
               class="rounded border border-white bg-transparent px-4 py-1 text-xs font-semibold uppercase text-white hover:cursor-pointer hover:bg-white-500 2xl:text-base 3xl:border-2 3xl:text-lg 4xl:text-xl 5xl:px-6 5xl:text-2xl"
             >
               Cotizar

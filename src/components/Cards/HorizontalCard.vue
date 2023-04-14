@@ -17,7 +17,7 @@
       <div class="mx-auto w-3/4 flex-wrap items-end md:flex md:w-full md:justify-between">
         <div>
           <a
-            href="#"
+            :href="cardContent.to"
             class="block rounded border border-black bg-transparent px-6 py-2 text-center text-xs font-semibold uppercase text-black duration-300 ease-in-out hover:cursor-pointer hover:border-white hover:bg-black hover:text-white hover:transition-all md:px-8 md:py-1 4xl:px-10 4xl:text-base 5xl:text-lg"
           >
             Cotizar

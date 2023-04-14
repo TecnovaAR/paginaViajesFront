@@ -1,17 +1,17 @@
 <template>
-  <SecondHero :url="secondHeroUrl" />
+  <SecondHero :url="this.data.secondHeroUrl" />
 
-  <ImageRight :content="imageRightContent" />
+  <ImageRight :content="this.data.imageRightContent" />
 
-  <Stars :content="cardStarContent" />
+  <Stars :content="this.data.cardStarContent" />
 
-  <ImageLeft :content="imageLeftContent" />
+  <ImageLeft :content="this.data.imageLeftContent" />
 
-  <TreeImagesCardsCarousel :content="treeCards" />
+  <TreeImagesCardsCarousel :content="this.data.treeCards" />
 
   <Form />
 
-  <Curved :content="curvedContent" />
+  <Curved :content="this.data.curvedContent" />
 </template>
 
 <script>
@@ -23,10 +23,13 @@ import TreeImagesCardsCarousel from '@/components/Carousels/TreeImagesCardsCarou
 import Form from '@/components/SharedTime/Form.vue'
 import Curved from '@/components/General/Curved.vue'
 
+import sharedTimesData from '@/components/utils/sharedTimesData.js'
+
 export default {
   name: 'SharedTimeView',
   setup() {
     return {
+      data: Object,
       secondHeroUrl:
         '/src/assets/img/TIEMPOS_COMPARTIDOS/VALLARTA_VIDANTA_GRAN_LUXX/VALLARTA_VIDANTA_GRAN_LUXX_2.jpg',
       imageRightContent: {
@@ -115,6 +118,10 @@ export default {
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
       }
     }
+  },
+  created() {
+    // Using the param "name" to get the data from sharedTimesData
+    this.data = sharedTimesData.sharedTimesData[this.$route.params.name]
   },
   components: {
     SecondHero,
