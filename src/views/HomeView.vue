@@ -34,29 +34,43 @@ export default {
       slides: [
         {
           url: `${slideUrl}CANCUN_VIDANTA_GRAN_MAYAN/CANCUN_VIDANTA_GRAN_MAYAN_3.jpg`,
-          text: 'Cancun Vidanta Gran Mayan'
+          text: 'Cancun Vidanta Gran Mayan',
+          to: '/sharedTime'
         },
         {
           url: `${slideUrl}CARACAS_MELIA_MARRIOT/CARACAS_MELIA_MARRIOT_1.jpg`,
-          text: 'Caracas Melia Marriot'
+          text: 'Caracas Melia Marriot',
+          to: '/sharedTime'
         },
-        { url: `${slideUrl}HYATT_REGENCY/HYATT_REGENCY_1.jpg`, text: 'Hyatt Regency' },
+        {
+          url: `${slideUrl}HYATT_REGENCY/HYATT_REGENCY_1.jpg`,
+          text: 'Hyatt Regency',
+          to: '/sharedTime'
+        },
         {
           url: `${slideUrl}FLORIDA_WINDMAN_HYATT/FLORIDA_WINDMAN_HYATT_5.jpg`,
-          text: 'Florida Windman - Hyatt'
+          text: 'Florida Windman - Hyatt',
+          to: '/sharedTime'
         },
         {
           url: `${slideUrl}LAS_VEGAS_CEASARS_PALACE/LAS_VEGAS_CEASARS_PALACE_1.jpg`,
-          text: 'Las Vegas Ceasars Palace'
+          text: 'Las Vegas Ceasars Palace',
+          to: '/sharedTime'
         },
-        { url: `${slideUrl}LOS_CABOS_VIDANTA/LOS_CABOS_VIDANTA_1.jpg`, text: 'Los Cabos Vidanta' },
+        {
+          url: `${slideUrl}LOS_CABOS_VIDANTA/LOS_CABOS_VIDANTA_1.jpg`,
+          text: 'Los Cabos Vidanta',
+          to: '/sharedTime'
+        },
         {
           url: `${slideUrl}MAZATLAN_VIDANTA_Y_MAYAN_PALACE/MAZATLAN_VIDANTA_2.jpg`,
-          text: 'Mazatlan Vidanta Y Mayan Palace'
+          text: 'Mazatlan Vidanta Y Mayan Palace',
+          to: '/sharedTime'
         },
         {
           url: `${slideUrl}VALLARTA_VIDANTA_GRAN_LUXX/VALLARTA_VIDANTA_GRAN_LUXX_2.jpg`,
-          text: 'Vallarta Vidanta Gran Luxx'
+          text: 'Vallarta Vidanta Gran Luxx',
+          to: '/sharedTime'
         }
       ],
       rectangle: {
