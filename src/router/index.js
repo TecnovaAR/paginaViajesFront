@@ -6,6 +6,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
 // Views
 import HomeView from '@/views/HomeView.vue'
 import SharedTimesView from '@/views/SharedTimesView.vue'
+import SharedTimeView from '@/views/SharedTimeView.vue'
 import DestinationsView from '@/views/DestinationsView.vue'
 import ContactView from '@/views/ContactView.vue'
 import AboutUsView from '@/views/AboutUsView.vue'
@@ -26,6 +27,11 @@ const router = createRouter({
           path: 'sharedTimes',
           name: 'sharedTimes',
           component: SharedTimesView
+        },
+        {
+          path: 'sharedTime/',
+          name: 'sharedTime',
+          component: SharedTimeView
         },
         {
           path: 'destinations',
