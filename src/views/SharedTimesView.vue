@@ -14,7 +14,7 @@ import CardsHorizontal from '@/components/General/CardsHorizontal.vue'
 import Rectangle from '@/components/General/Rectangle.vue'
 import TreeCardsCarousel from '@/components/Carousels/TreeCardsCarousel.vue'
 
-const sharedTimesUrl = 'src/assets/img/TIEMPOS_COMPARTIDOS/'
+const sharedTimesUrl = '/src/assets/img/TIEMPOS_COMPARTIDOS/'
 
 export default {
   name: 'SharedTimesView',
@@ -22,7 +22,7 @@ export default {
     return {
       thirdHeroContent: {
         backgroundUrl:
-          'src/assets/img/TIEMPOS_COMPARTIDOS/VALLARTA_VIDANTA_GRAN_LUXX/VALLARTA_VIDANTA_GRAN_LUXX_2.jpg',
+          '/src/assets/img/TIEMPOS_COMPARTIDOS/VALLARTA_VIDANTA_GRAN_LUXX/VALLARTA_VIDANTA_GRAN_LUXX_2.jpg',
         title: 'TIEMPOS COMPARTIDOS'
       },
       horizontalCards: [

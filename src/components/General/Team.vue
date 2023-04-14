@@ -6,7 +6,7 @@
       <div
         class="flex w-2/3 items-center justify-center md:basis-2/6 2xl:h-5/6 2xl:basis-5/12 3xl:h-auto 3xl:basis-2/6"
       >
-        <img src="src/assets/img/OTHERS/TEAM.png" alt="Team Image" class="h-full rounded-full" />
+        <img src="/src/assets/img/OTHERS/TEAM.png" alt="Team Image" class="h-full rounded-full" />
       </div>
 
       <div class="mb-2 text-center md:basis-4/6 md:text-left 2xl:basis-7/12 3xl:basis-2/5">

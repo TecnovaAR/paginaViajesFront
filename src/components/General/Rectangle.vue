@@ -4,7 +4,7 @@
       class="md:flex md:max-w-screen-sm lg:max-w-screen-md 2xl:max-w-screen-xl 3xl:max-w-screen-2xl 4xl:max-w-screen-3xl 5xl:max-w-screen-4xl"
     >
       <div
-        class="relative flex h-96 w-full flex-col items-center justify-center bg-[url(src/assets/img/OTHERS/BACKGROUND_1.png)] bg-cover bg-center md:h-80 md:basis-3/4 3xl:h-96 4xl:h-120"
+        class="relative flex h-96 w-full flex-col items-center justify-center bg-[url(/src/assets/img/OTHERS/BACKGROUND_1.png)] bg-cover bg-center md:h-80 md:basis-3/4 3xl:h-96 4xl:h-120"
       >
         <!-- Rectangle -->
         <div

@@ -13,15 +13,15 @@ import ThirdHero from '@/components/General/ThirdHero.vue'
 import CardsHorizontal from '@/components/General/CardsHorizontal.vue'
 import Rectangle from '@/components/General/Rectangle.vue'
 
-const destinationsUrl = 'src/assets/img/DESTINOS/'
-const sharedTimesUrl = 'src/assets/img/TIEMPOS_COMPARTIDOS/'
+const destinationsUrl = '/src/assets/img/DESTINOS/'
+const sharedTimesUrl = '/src/assets/img/TIEMPOS_COMPARTIDOS/'
 
 export default {
   name: 'DestinationsView',
   setup() {
     return {
       thirdHeroContent: {
-        backgroundUrl: 'src/assets/img/DESTINOS/ORLANDO/ORLANDO_2.webp',
+        backgroundUrl: '/src/assets/img/DESTINOS/ORLANDO/ORLANDO_2.webp',
         title: 'DESTINOS'
       },
       horizontalCards: [

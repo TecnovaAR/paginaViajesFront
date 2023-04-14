@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-center bg-[url(src/assets/img/OTHERS/BACKGROUND_2.png)] bg-cover bg-center"
+    class="flex flex-col justify-center bg-[url(/src/assets/img/OTHERS/BACKGROUND_2.png)] bg-cover bg-center"
   >
     <div class="bg-white-700">
       <div class="curved h-20 bg-[#fff] 4xl:h-32"></div>

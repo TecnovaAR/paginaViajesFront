@@ -15,7 +15,7 @@ export default {
   name: 'ContactView',
   setup() {
     return {
-      secondHeroUrl: 'src/assets/img/DESTINOS/PANAMA/PANAMA_1.webp',
+      secondHeroUrl: '/src/assets/img/DESTINOS/PANAMA/PANAMA_1.webp',
       curvedContent: {
         title: 'Lorem ipsum dolor sit amet',
         description:
