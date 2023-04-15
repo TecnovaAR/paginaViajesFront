@@ -12,7 +12,7 @@
           Amenidades
         </h2>
 
-        <div v-if="content.amenities.length == 10">
+        <div v-if="content.amenities.length <= 10">
           <ul class="list-inside list-disc">
             <li
               v-for="text in content.amenities"
