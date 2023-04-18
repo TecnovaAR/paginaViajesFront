@@ -29,37 +29,43 @@ export default {
           url: `${destinationsUrl}ORLANDO/ORLANDO_1.jpg`,
           title: 'Orlando',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/orlando'
         },
         {
           url: `${destinationsUrl}MIAMI/MIAMI_2.jpg`,
           title: 'Miami',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/miami'
         },
         {
           url: `${destinationsUrl}FLORIDA/FLORIDA_1.jpg`,
           title: 'Florida',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/florida'
         },
         {
           url: `${destinationsUrl}CANCUN/CANCUN_3.jpg`,
           title: 'Cancún',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/cancun'
         },
         {
           url: `${destinationsUrl}CABOS/CABOS_1.webp`,
           title: 'Los Cabos',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/losCabos'
         },
         {
           url: `${destinationsUrl}CARTAGENA/CARTAGENA_3.webp`,
           title: 'Cartagena',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/cartagena'
         }
       ],
       rectangle: {

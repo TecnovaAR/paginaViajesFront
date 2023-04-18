@@ -101,76 +101,88 @@ export default {
       },
       treeCards: [
         {
-          url: 'DESTINOS/ORLANDO/ORLANDO_1.jpg',
+          url: 'assets/img/DESTINOS/ORLANDO/ORLANDO_1.jpg',
           title: 'Orlando',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/orlando'
         },
         {
-          url: 'DESTINOS/MIAMI/MIAMI_2.jpg',
+          url: 'assets/img/DESTINOS/MIAMI/MIAMI_2.jpg',
           title: 'Miami',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/miami'
         },
         {
-          url: 'DESTINOS/FLORIDA/FLORIDA_1.jpg',
+          url: 'assets/img/DESTINOS/FLORIDA/FLORIDA_1.jpg',
           title: 'Florida',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/florida'
         },
         {
-          url: 'DESTINOS/CABOS/CABOS_3.jpg',
+          url: 'assets/img/DESTINOS/CABOS/CABOS_3.jpg',
           title: 'Cabos',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/losCabos'
         },
         {
-          url: 'DESTINOS/PANAMA/PANAMA_1.webp',
+          url: 'assets/img/DESTINOS/PANAMA/PANAMA_1.webp',
           title: 'Panama',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/panama'
         },
         {
-          url: 'DESTINOS/MAZATLAN/MAZATLAN_2.jpg',
+          url: 'assets/img/DESTINOS/MAZATLAN/MAZATLAN_2.jpg',
           title: 'Mazatlan',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/mazatlan'
         },
         {
-          url: 'DESTINOS/CANCUN/CANCUN_3.jpg',
+          url: 'assets/img/DESTINOS/CANCUN/CANCUN_3.jpg',
           title: 'Cancun',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/cancun'
         },
         {
-          url: 'DESTINOS/PUERTO_VALLARTA/PUERTO_VALLARTA_2.jpg',
+          url: 'assets/img/DESTINOS/PUERTO_VALLARTA/PUERTO_VALLARTA_2.jpg',
           title: 'Puerto Vallarta',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/puertoVallarta'
         },
         {
-          url: 'DESTINOS/PUERTO_PENASCO/PUERTO_PENASCO_2.jpg',
+          url: 'assets/img/DESTINOS/PUERTO_PENASCO/PUERTO_PENASCO_2.jpg',
           title: 'Puerto Penasco',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/puertoPenasco'
         },
         {
-          url: 'DESTINOS/IXTAPA/IXTAPA_1.jpg',
+          url: 'assets/img/DESTINOS/IXTAPA/IXTAPA_1.jpg',
           title: 'Ixtapa',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/ixtapa'
         },
         {
-          url: 'DESTINOS/CARACAS/CARACAS_1.jpg',
+          url: 'assets/img/DESTINOS/CARACAS/CARACAS_1.jpg',
           title: 'Caracas',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/caracas'
         },
         {
-          url: 'DESTINOS/CARTAGENA/CARTAGENA_2.jpg',
+          url: 'assets/img/DESTINOS/CARTAGENA/CARTAGENA_2.jpg',
           title: 'Cartagena',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.',
+          to: '/sharedTime/cartagena'
         }
       ],
       teamContent: {
