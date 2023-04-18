@@ -31,7 +31,7 @@ export default {
     return {
       data: Object,
       secondHeroUrl:
-        'assets/img/TIEMPOS_COMPARTIDOS/VALLARTA_VIDANTA_GRAN_LUXX/VALLARTA_VIDANTA_GRAN_LUXX_2.jpg',
+        '/assets/img/TIEMPOS_COMPARTIDOS/VALLARTA_VIDANTA_GRAN_LUXX/VALLARTA_VIDANTA_GRAN_LUXX_2.jpg',
       imageRightContent: {
         title: 'VALLARTA VIDANTA GRAN LUXX',
         desc: 'Con suntuosas torres de alojamientos construidas a lo largo del espectacular río Ameca, Grand Luxxe Nuevo Vallarta es un modelo de vivienda de lujo. El hotel resort más exclusivo de Vidanta galardonado con el Premio 5 Diamond de AAA.',
