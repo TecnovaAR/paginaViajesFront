@@ -21,7 +21,7 @@ export default {
   name: 'AboutUsView',
   setup() {
     return {
-      secondHeroUrl: '/src/assets/img/DESTINOS/MIAMI/MIAMI_2.jpg',
+      secondHeroUrl: 'assets/img/DESTINOS/MIAMI/MIAMI_2.jpg',
       teamContent: {
         title: 'Lorem ipsum dolor sit amet',
         description:
@@ -35,7 +35,7 @@ export default {
           { name: 'linkedin', to: '#' },
           { name: 'youtube', to: '#' }
         ],
-        image: '/src/assets/img/DESTINOS/CANCUN/CANCUN_3.jpg'
+        image: 'assets/img/DESTINOS/CANCUN/CANCUN_3.jpg'
       },
       cardStarContent: [
         {
@@ -56,7 +56,7 @@ export default {
         }
       ],
       imageLeftContent: {
-        image: '/src/assets/img/DESTINOS/CARTAGENA/CARTAGENA_3.webp',
+        image: 'assets/img/DESTINOS/CARTAGENA/CARTAGENA_3.webp',
         paragraphs: [
           {
             title: 'Lorem Ipsum',

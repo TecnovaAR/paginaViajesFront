@@ -25,7 +25,7 @@ import Curved from '@/components/General/Curved.vue'
 import CardsHorizontal from '@/components/General/CardsHorizontal.vue'
 import Contact from '@/components/Home/Contact.vue'
 
-const slideUrl = '/src/assets/img/TIEMPOS_COMPARTIDOS/'
+const slideUrl = 'assets/img/TIEMPOS_COMPARTIDOS/'
 
 export default {
   name: 'HomeView',
