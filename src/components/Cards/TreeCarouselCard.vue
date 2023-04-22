@@ -1,9 +1,9 @@
 <template>
-  <div class="mx-4 w-full shadow-md shadow-black md:mx-0">
+  <div class="w-full shadow-md shadow-black md:mx-0">
     <div class="md:h-60 4xl:h-72">
       <img :src="cardContent.url" alt="Card Image" class="h-full w-full" />
     </div>
-    <div class="h-full w-full bg-white p-4 lg:p-6 3xl:p-8 4xl:p-10">
+    <div class="h-64 w-full bg-white p-4 lg:p-6 3xl:p-8 4xl:p-10 flex flex-col justify-between">
       <div>
         <!-- Title -->
         <h3
@@ -12,7 +12,7 @@
           {{ cardContent.title }}
         </h3>
         <!-- Description -->
-        <p class="mb-6 font-light 4xl:text-lg 5xl:text-xl">
+        <p class="mb-6 font-light 4xl:text-lg 5xl:text-xl line-clamp-3">
           {{ cardContent.description }}
         </p>
       </div>
@@ -35,6 +35,15 @@ export default {
   name: 'TreeCarouselCard',
   props: {
     cardContent: Object
-  }
+  },
+  methods: {
+    truncateWords(text, limit) {
+      const words = text.split(' ');
+      if (words.length > limit) {
+        return words.slice(0, limit).join(' ') + '...';
+      }
+      return text;
+    },
+  },
 }
 </script>

@@ -10,7 +10,7 @@
         {{ cardContent.title }}
       </h2>
 
-      <p class="mb-4 text-sm 3xl:text-base 4xl:text-lg 5xl:text-2xl">
+      <p class="mb-4 text-sm 3xl:text-base 4xl:text-lg 5xl:text-2xl line-clamp-5">
         {{ cardContent.description }}
       </p>
 
