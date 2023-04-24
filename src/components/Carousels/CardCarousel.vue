@@ -1,5 +1,13 @@
 <template>
-  <swiper :pagination="pagination" :modules="modules" class="swiperRectangle">
+  <swiper
+    :pagination="pagination"
+    :modules="modules"
+    class="swiperRectangle"
+    :autoplay="{
+      delay: 2500,
+      disableOnInteraction: false
+    }"
+  >
     <swiper-slide v-for="(text, index) in cardContent" :key="index">
       <div class="flex flex-col items-center justify-center text-center text-white">
         <!-- Card Star -->
@@ -32,7 +40,7 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 
 // Import required modules
-import { Pagination } from 'swiper'
+import { Pagination, Autoplay } from 'swiper'
 
 export default {
   name: 'CardCarousel',
@@ -45,7 +53,7 @@ export default {
         clickable: true,
         dynamicBullets: true
       },
-      modules: [Pagination]
+      modules: [Pagination, Autoplay]
     }
   },
   components: {

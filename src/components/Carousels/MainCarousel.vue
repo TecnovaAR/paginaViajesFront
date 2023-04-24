@@ -1,5 +1,15 @@
 <template>
-  <swiper :slidesPerView="1" :loop="true" :navigation="true" class="swiperMain" :modules="modules">
+  <swiper
+    :slidesPerView="1"
+    :loop="true"
+    :navigation="true"
+    class="swiperMain"
+    :modules="modules"
+    :autoplay="{
+      delay: 3000,
+      disableOnInteraction: false
+    }"
+  >
     <!-- Swiper Slides -->
     <swiper-slide v-for="(slide, index) in slides" :key="index">
       <div
@@ -50,7 +60,7 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 
 // Import required modules
-import { Navigation } from 'swiper'
+import { Navigation, Autoplay } from 'swiper'
 
 export default {
   name: 'MainCarousel',
@@ -59,7 +69,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Navigation]
+      modules: [Navigation, Autoplay]
     }
   },
   components: {
