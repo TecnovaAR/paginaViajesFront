@@ -1245,11 +1245,11 @@ const loukaBeachBali = {
 }
 
 const theGuardsman = {
-  secondHeroUrl: '/assets/img/TIEMPOS_COMPARTIDOS/',
+  secondHeroUrl: '/assets/img/TIEMPOS_COMPARTIDOS/TheGuardsmanLondresReinoUnido/londres0.jpg',
   imageRightContent: {
     title: 'The Guardsman – Londres Reino Unido',
     desc: 'El The Guardsman - Preferred Hotels and Resorts está situado en Londres, a 400 metros del Palacio de Buckingham, y ofrece un bar y vistas a la ciudad. El establecimiento cuenta con restaurante, recepción las 24 horas, servicio de habitaciones, WiFi gratuita Además, hay habitaciones familiares. A las parejas les encanta la ubicación — Le han puesto un 9.5 para viajes de dos personas.',
-    image: '/assets/img/TIEMPOS_COMPARTIDOS/'
+    image: '/assets/img/TIEMPOS_COMPARTIDOS/TheGuardsmanLondresReinoUnido/londres4.jpg'
   },
   cardStarContent: [
     {
@@ -1270,7 +1270,7 @@ const theGuardsman = {
     }
   ],
   imageLeftContent: {
-    image: '/assets/img/TIEMPOS_COMPARTIDOS/',
+    image: '/assets/img/TIEMPOS_COMPARTIDOS/TheGuardsmanLondresReinoUnido/londres3.jpg',
     amenities: [
       'WiFi gratis',
       'Parking',
@@ -1294,22 +1294,22 @@ const theGuardsman = {
   },
   treeCards: [
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/TheGuardsmanLondresReinoUnido/londres0.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/TheGuardsmanLondresReinoUnido/londres.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/TheGuardsmanLondresReinoUnido/londres2.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/TheGuardsmanLondresReinoUnido/londres3.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/TheGuardsmanLondresReinoUnido/londres4.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/TheGuardsmanLondresReinoUnido/londres5.jpg'
     }
   ],
   curvedContent: {
@@ -1466,11 +1466,11 @@ const azzapHotelGalata = {
 }
 
 const beauquartierParis = {
-  secondHeroUrl: '/assets/img/TIEMPOS_COMPARTIDOS/',
+  secondHeroUrl: '/assets/img/TIEMPOS_COMPARTIDOS/BeauquartierParis/paris0.jpg',
   imageRightContent: {
     title: 'Beauquartier Paris - París, Francia',
-    desc: 'El Beauquartier Paris - Le Marais Archives se encuentra en el centro de París, cerca del Centro Pompidou, la estación de metro Gare de l&#39;Est y la estación Gare de l&#39;Est, y ofrece terraza y WiFi gratuita. Los alojamientos cuentan con suelo de parquet, zona de cocina totalmente equipada con nevera, zona de comedor, TV de pantalla plana vía satélite y baño privado con ducha y artículos de aseo gratuitos. Hay lavavajillas, microondas, tostadora, cafetera y hervidor de agua.',
-    image: '/assets/img/TIEMPOS_COMPARTIDOS/'
+    desc: "El Beauquartier Paris - Le Marais Archives se encuentra en el centro de París, cerca del Centro Pompidou, la estación de metro Gare de l'Est y la estación Gare de l'Est, y ofrece terraza y WiFi gratuita. Los alojamientos cuentan con suelo de parquet, zona de cocina totalmente equipada con nevera, zona de comedor, TV de pantalla plana vía satélite y baño privado con ducha y artículos de aseo gratuitos. Hay lavavajillas, microondas, tostadora, cafetera y hervidor de agua.",
+    image: '/assets/img/TIEMPOS_COMPARTIDOS/BeauquartierParis/paris4.jpg'
   },
   cardStarContent: [
     {
@@ -1491,7 +1491,7 @@ const beauquartierParis = {
     }
   ],
   imageLeftContent: {
-    image: '/assets/img/TIEMPOS_COMPARTIDOS/',
+    image: '/assets/img/TIEMPOS_COMPARTIDOS/BeauquartierParis/paris2.jpg',
     amenities: [
       'Apartamentos',
       'Vistas',
@@ -1509,28 +1509,28 @@ const beauquartierParis = {
   },
   treeCards: [
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/BeauquartierParis/paris0.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/BeauquartierParis/paris.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/BeauquartierParis/paris2.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/BeauquartierParis/paris3.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/BeauquartierParis/paris4.jpg'
     },
     {
-      url: ''
+      url: 'TIEMPOS_COMPARTIDOS/BeauquartierParis/paris.jpg'
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Reserva tu estancia en París',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'No te pierdas la oportunidad de conocer la ciudad del amor, reserva tu estancia en París con nosotros.'
   }
 }
 
@@ -1543,19 +1543,21 @@ const sharedTimesData = {
   hyatt: hyatt,
   florida: florida,
   caracas: caracas,
-  orlando: orlando,
-  miami: miami,
-  cartagena: cartagena,
-  ixtapa: ixtapa,
-  panama: panama,
-  puertoPenasco: puertoPenasco,
-  puertoVallarta: puertoVallarta,
   anantaraPalazzoNaiadiRome: anantaraPalazzoNaiadiRome,
   azzapHotelGalata: azzapHotelGalata,
   loukaBeachBali: loukaBeachBali,
   kianiBeachResort: kianiBeachResort,
   inkHotel: inkHotel,
   marriotCancun: marriotCancun,
+  theGuardsman: theGuardsman,
+  beauquartierParis: beauquartierParis,
+  // orlando: orlando,
+  // miami: miami,
+  // cartagena: cartagena,
+  // ixtapa: ixtapa,
+  // panama: panama,
+  // puertoPenasco: puertoPenasco,
+  // puertoVallarta: puertoVallarta,
 }
 
 export default {
