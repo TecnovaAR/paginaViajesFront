@@ -7,7 +7,9 @@
       <div class="flex h-fit items-center justify-center">
         <font-awesome-icon :icon="['far', 'star']" class="text-4xl 5xl:text-6xl" />
       </div>
-      <h3 class="text-2xl italic 3xl:text-3xl 5xl:text-5xl">Lorem Impsum</h3>
+      <h3 class="text-2xl italic 3xl:text-3xl 5xl:text-5xl">
+        {{ content.title }}
+      </h3>
     </div>
 
     <!-- Content -->
@@ -15,15 +17,14 @@
       <!-- Subtitle -->
       <div class="mb-4">
         <h3 class="text-2xl font-medium text-primary 3xl:text-3xl 5xl:text-5xl">
-          Lorem Impsu Dolor Sit Amet
+          {{ content.subtitle }}
         </h3>
       </div>
 
       <!-- Description -->
       <div>
         <p class="3xl:text-lg 5xl:text-2xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget felis id est aliquam
-          porttitor.
+          {{ content.desc }}
         </p>
       </div>
     </div>
