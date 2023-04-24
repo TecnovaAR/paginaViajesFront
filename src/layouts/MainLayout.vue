@@ -33,9 +33,9 @@ export default {
           { name: 'youtube', to: '#' }
         ],
         columns: [
-          ['Lorem impsum dolor sit', 'Lorem impsum dolor sit', 'Lorem impsum dolor sit'],
-          ['Lorem impsum dolor sit', 'Lorem impsum dolor sit', 'Lorem impsum dolor sit'],
-          ['Lorem impsum dolor sit', 'Lorem impsum dolor sit', 'Lorem impsum dolor sit']
+          ['Políticas de privacidad', 'Franquicias', 'Grupos'],
+          ['Financiamiento', 'Contacto', 'Relaciones externas'],
+          ['Visas', 'Atención al cliente', 'Bolsa de trabajo']
         ]
       }
     }

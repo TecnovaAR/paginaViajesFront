@@ -54,28 +54,24 @@ export default {
       },
       horizontalCards,
       rectangle: {
-        title: 'Lorem ipsum dolor sit amet',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec risus.',
+        title: '¡Encuentra tu próximo destino!',
+        desc: 'Planea tu próximo viaje y adquiere las mejores ofertas. Con nosotros encontrarás lo más destacado en vuelos, tours, experiencias, hospedajes y mucho más sólo busca la opción que más quieras y prepara las maletas.',
         cards: [
           {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            title: 'Compra fácil',
+            desc: 'Reservar tus vacaciones nunca fue tan fácil, sólo elige el destino que más te guste y nosotros nos encargamos del resto.'
           },
           {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            title: 'Formas de pago',
+            desc: 'Ofrecemos diferentes formas de pago para que puedas adquirir tus vacaciones de la manera que más te convenga.'
           },
           {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            title: 'Nunca te abandonamos',
+            desc: 'Te acompañamos en todo el proceso de compra, desde la elección de tu destino hasta el final de tus vacaciones.'
           },
           {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
-          },
-          {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            title: 'Somos transparentes',
+            desc: 'Nuestros precios son claros y sin sorpresas, no te cobraremos nada extra por tu compra.'
           }
         ]
       },

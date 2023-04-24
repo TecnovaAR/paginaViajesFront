@@ -50,7 +50,7 @@ export default {
           to: `/sharedTime/${i}`
         })
 
-        if (counter > 10 && counter < 15) {
+        if (counter < 4) {
           horizontalCards.push({
             url: sharedTimesData[key][i].secondHeroUrl,
             title: sharedTimesData[key][i].imageRightContent.title,
@@ -66,41 +66,37 @@ export default {
     return {
       slides,
       rectangle: {
-        title: 'Lorem ipsum dolor sit amet',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec risus.',
+        title: '¡Encuentra tu próximo destino!',
+        desc: 'Planea tu próximo viaje y adquiere las mejores ofertas. Con nosotros encontrarás lo más destacado en vuelos, tours, experiencias, hospedajes y mucho más sólo busca la opción que más quieras y prepara las maletas.',
         cards: [
           {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            title: 'Compra fácil',
+            desc: 'Reservar tus vacaciones nunca fue tan fácil, sólo elige el destino que más te guste y nosotros nos encargamos del resto.'
           },
           {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            title: 'Formas de pago',
+            desc: 'Ofrecemos diferentes formas de pago para que puedas adquirir tus vacaciones de la manera que más te convenga.'
           },
           {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            title: 'Nunca te abandonamos',
+            desc: 'Te acompañamos en todo el proceso de compra, desde la elección de tu destino hasta el final de tus vacaciones.'
           },
           {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
-          },
-          {
-            title: 'Lorem ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex.'
+            title: 'Somos transparentes',
+            desc: 'Nuestros precios son claros y sin sorpresas, no te cobraremos nada extra por tu compra.'
           }
         ]
       },
       treeCards,
       teamContent: {
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Destinos para todos los gustos',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec risus.'
+          'Si lo que buscas es un destino ‘Adults Only’, tenemos buenas noticias para ti, te demostramos los mejores hoteles con diversas amenidades para viajar hasta tu ideal tiempo compartido. ¡Conócelos!'
       },
       curvedContent: {
-        title: 'Lorem ipsum dolor sit amet',
+        title: '¿Estás pensando en hacer un viaje impresionante?',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+          '¡Con nosotros puedes hacerlo realidad! Ofrecemos todos los recursos que necesitas para planear tus vacaciones en el destino que desees, con una atención de alta calidad.'
       },
       horizontalCards,
       sharedTimesData: sharedTimesData

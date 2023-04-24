@@ -8,7 +8,7 @@
           CONTÁCTANOS
         </h2>
         <p class="text-lg font-light xl:w-3/4 xl:text-xl 2xl:text-2xl 4xl:text-3xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Siempre estaremos para ti, para que encuentres la experiencia que estás buscando.
         </p>
       </div>
     </div>

@@ -3,10 +3,10 @@
     <div
       class="mx-4 mb-20 grid md:mx-8 md:max-w-screen-sm lg:max-w-screen-md lg:grid-cols-2 lg:gap-10 2xl:max-w-screen-2xl 2xl:grid-cols-4 4xl:max-w-screen-3xl 5xl:max-w-screen-4xl"
     >
-      <MainCard :content="mainCard" />
-      <MainCard :content="mainCard" class="mt-6 lg:-mt-20" />
-      <MainCard :content="mainCard" class="mt-6 2xl:-mt-20" />
-      <MainCard :content="mainCard" class="mt-6 2xl:-mt-20" />
+      <MainCard :content="mainCard[0]" />
+      <MainCard :content="mainCard[1]" class="mt-6 lg:-mt-20" />
+      <MainCard :content="mainCard[2]" class="mt-6 2xl:-mt-20" />
+      <MainCard :content="mainCard[3]" class="mt-6 2xl:-mt-20" />
     </div>
   </div>
 </template>
@@ -20,24 +20,24 @@ export default {
     return {
       mainCard: [
         {
-          title: 'Lorem Impsum',
-          subtitle: 'Lorem Impsu Dolor Sit Amet',
-          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget felis id est aliquam porttitor.'
+          title: 'Vuelos',
+          subtitle: '¡Encuentra las mejores ofertas de vuelos!',
+          desc: 'Aquí podrás realizar tu reserva de vuelos, comprar tus boletos de avión, encontrar los mejores paquetes de viajes  a destinos que se ajusten a tu presupuesto, expectativas y experiencias.'
         },
         {
-          title: 'Lorem Impsum',
-          subtitle: 'Lorem Impsu Dolor Sit Amet',
-          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget felis id est aliquam porttitor.'
+          title: 'Tours',
+          subtitle: 'Encuentra el tour perfecto para ti',
+          desc: 'Descubre los mejores tours y actividades por todo el mundo, conoce los lugares más emblemáticos de cada destino, vive experiencias únicas y crea recuerdos inolvidables.'
         },
         {
-          title: 'Lorem Impsum',
-          subtitle: 'Lorem Impsu Dolor Sit Amet',
-          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget felis id est aliquam porttitor.'
+          title: 'Hospedaje',
+          subtitle: 'Encuentra el hospedaje perfecto para ti',
+          desc: 'Ya sea que busques un hotel, un hostal, un departamento o una casa, aquí podrás encontrar el lugar ideal para tu viaje.'
         },
         {
-          title: 'Lorem Impsum',
-          subtitle: 'Lorem Impsu Dolor Sit Amet',
-          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget felis id est aliquam porttitor.'
+          title: 'Seguros de viaje',
+          subtitle: '¡Viaja seguro y sin preocupaciones!',
+          desc: 'Viaja tranquilo y sin preocupaciones, conoce los mejores seguros de viaje y elige el que mejor se adapte a tus necesidades.'
         }
       ]
     }

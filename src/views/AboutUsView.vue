@@ -23,12 +23,12 @@ export default {
     return {
       secondHeroUrl: 'assets/img/DESTINOS/MIAMI/MIAMI_2.jpg',
       teamContent: {
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Destinos para todos los gustos',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec risus.'
+          'Si lo que buscas es un destino ‘Adults Only’, tenemos buenas noticias para ti, te demostramos los mejores hoteles con diversas amenidades para viajar hasta tu ideal tiempo compartido. ¡Conócelos!'
       },
       imageRightContent: {
-        title: 'Lorem Impsum, Dolor sit Amet',
+        title: '¡Encuentra tu próximo destino!',
         social: [
           { name: 'facebook', to: '#' },
           { name: 'instagram', to: '#' },
@@ -39,32 +39,32 @@ export default {
       },
       cardStarContent: [
         {
-          title: 'Lorem impsum',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+          title: 'Compra fácil',
+          description: 'Reservar tus vacaciones nunca fue tan fácil, sólo elige el destino que más te guste y nosotros nos encargamos del resto.'
         },
         {
-          title: 'Lorem impsum',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+          title: 'Formas de pago',
+          description: 'Ofrecemos diferentes formas de pago para que puedas adquirir tus vacaciones de la manera que más te convenga.'
         },
         {
-          title: 'Lorem impsum',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+          title: 'No abandonamos',
+          description: 'Te acompañamos en todo el proceso de compra, desde la elección de tu destino hasta el final de tus vacaciones.'
         },
         {
-          title: 'Lorem impsum',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+          title: 'Transparentes',
+          description: 'Nuestros precios son claros y sin sorpresas, no te cobraremos nada extra por tu compra.'
         }
       ],
       imageLeftContent: {
         image: 'assets/img/DESTINOS/CARTAGENA/CARTAGENA_3.webp',
         paragraphs: [
           {
-            title: 'Lorem Ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec risus.'
+            title: '¿Por qué elegirnos?',
+            desc: 'Somos una empresa con más de 10 años de experiencia en el sector turístico, ofreciendo a nuestros clientes las mejores opciones de viaje, con los mejores precios y la mejor atención. Nuestro objetivo es que nuestros clientes disfruten de sus vacaciones sin preocupaciones, por eso nos encargamos de todo, desde la elección del destino hasta el final de sus vacaciones.'
           },
           {
-            title: 'Lorem Ipsum',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec risus.'
+            title: '¿Qué ofrecemos?',
+            desc: 'Ofrecemos una gran variedad de destinos, desde los más populares hasta los más exclusivos, con los mejores precios y las mejores ofertas. Nuestros destinos incluyen vuelos, tours, experiencias, hospedajes y mucho más. Además, ofrecemos diferentes formas de pago para que nuestros clientes puedan adquirir sus vacaciones de la manera que más les convenga.'
           }
         ]
       }

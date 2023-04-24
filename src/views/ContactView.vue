@@ -17,9 +17,9 @@ export default {
     return {
       secondHeroUrl: 'assets/img/DESTINOS/PANAMA/PANAMA_1.webp',
       curvedContent: {
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'No dudes en contactarnos',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+          'Lo mejor que puedes regalarte son esas vacaciones en un destino que te haga disfrutar de tu tiempo y conocer nuevas partes del mundo. ¡No lo pienses más y contáctanos!'
       }
     }
   },
