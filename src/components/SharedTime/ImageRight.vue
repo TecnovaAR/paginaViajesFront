@@ -11,7 +11,7 @@
 
       <div class="mb-12 xl:mb-20 2xl:w-10/12 3xl:w-full">
         <h1
-          class="font-playfair text-3xl font-bold md:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl"
+          class="font-playfair uppercase text-3xl font-bold md:text-4xl xl:text-5xl 3xl:text-6xl 4xl:text-7xl 5xl:text-8xl"
         >
           {{ content.title }}
         </h1>
