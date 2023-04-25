@@ -35,7 +35,7 @@ export default {
           })
         }
 
-        if (counter > 7 && counter < 15) {
+        if (counter > 7 && counter < 14) {
           horizontalCards2.push({
             url: sharedTimesData[key][i].secondHeroUrl,
             title: sharedTimesData[key][i].imageRightContent.title,
