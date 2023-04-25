@@ -9,7 +9,7 @@
     >
       <!-- Logo -->
       <div class="w-24 md:w-28 lg:w-32 2xl:w-36 3xl:w-44 5xl:w-52">
-        <img src="/src/assets/img/OTHERS/LOGO_TEST.png" alt="Logo" />
+        <img src="/assets/img/OTHERS/logoWhite.svg" alt="Logo" />
       </div>
 
       <!-- Menu Hamburger -->

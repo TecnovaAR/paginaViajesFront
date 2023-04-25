@@ -6,7 +6,7 @@
       <div
         class="mb-6 flex h-16 w-full justify-center md:mb-0 md:w-28 md:basis-1/4 lg:w-32 2xl:w-36 3xl:w-44 5xl:w-52"
       >
-        <img src="/src/assets/img/OTHERS/LOGO_TEST.png" alt="Logo" class="h-full" />
+        <img src="/assets/img/OTHERS/logoWhite.svg" alt="Logo" class="h-full" />
       </div>
 
       <div
