@@ -8,9 +8,9 @@
       class="mx-4 flex items-center justify-between md:mx-8 lg:mx-12 xl:mx-14 3xl:mx-16 4xl:mx-20 5xl:mx-28"
     >
       <!-- Logo -->
-      <div class="w-24 md:w-28 lg:w-32 2xl:w-36 3xl:w-44 5xl:w-52">
+      <a href="/" class="w-24 md:w-28 lg:w-32 2xl:w-36 3xl:w-44 5xl:w-52">
         <img src="/assets/img/OTHERS/logoWhite.svg" alt="Logo" />
-      </div>
+      </a>
 
       <!-- Menu Hamburger -->
       <div @click="menu = !menu" class="relative right-0 cursor-pointer text-white lg:hidden">
