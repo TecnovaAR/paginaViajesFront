@@ -1,11 +1,15 @@
 <template>
   <div class="flex flex-col items-center justify-center md:flex-row">
-    <div
+    <!-- <div
       class="h-52 w-full bg-cover bg-center md:h-full xl:basis-5/12 5xl:h-80"
       :style="'background-image: url(' + cardContent.url + ')'"
-    ></div>
+    ></div> -->
 
-    <div class="flex flex-col justify-between bg-white p-5 md:h-full xl:basis-7/12">
+    <div class="h-52 w-full md:h-full md:w-1/3 xl:basis-5/12 5xl:h-80">
+      <img :src="cardContent.url" alt="Hotel Image" class="h-full w-full">
+    </div>
+
+    <div class="flex flex-col md:w-2/3 justify-between bg-white p-5 md:h-full xl:basis-7/12">
       <h2 class="mb-4 mt-2 font-medium xl:text-xl 3xl:text-2xl 5xl:w-3/4 5xl:text-3xl">
         {{ cardContent.title }}
       </h2>
