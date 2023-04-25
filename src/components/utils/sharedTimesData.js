@@ -3,32 +3,32 @@ const cancun = {
     '/assets/img/TIEMPOS_COMPARTIDOS/CANCUN_VIDANTA_GRAN_MAYAN/CANCUN_VIDANTA_GRAN_MAYAN_3.jpg',
   imageRightContent: {
     title: 'Cancún Vidanta Gran Mayan',
-    desc: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.',
+    desc: 'Reconocido como uno de los 5 mejores Hoteles en la región este de México por Condé Nast Traveler’s Readers’ Choice Awards, Vidanta Riviera Maya es una experiencia como ninguna otra. Los huéspedes pueden explorar más de 400 hectáreas de este paraíso que cuenta con piscinas impecables y está bordeado por una playa magnífica.',
     image:
       '/assets/img/TIEMPOS_COMPARTIDOS/CANCUN_VIDANTA_GRAN_MAYAN/CANCUN_VIDANTA_GRAN_MAYAN_1.jpg'
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
     image:
       '/assets/img/TIEMPOS_COMPARTIDOS/CANCUN_VIDANTA_GRAN_MAYAN/CANCUN_VIDANTA_GRAN_MAYAN_4.jpg',
-    amenities: ['Amenidad 1', 'Amenidad 2']
+    amenities: ['Estacionamiento', 'Piscina', 'Bar/Salón', 'Sala de juegos', 'Internet gratuito', 'Gimnasio', 'Playa', 'Guardería', 'Balcón privado', 'Bar en la piscina', 'Campo de golf', 'Cancha de tenis', 'Desayuno bufet', 'Restaurante', 'Spa', 'Salas de reuniones', 'Masaje', 'Entretenimiento nocturno']
   },
   treeCards: [
     {
@@ -48,9 +48,9 @@ const cancun = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Ven y disfruta de una experiencia única en el Caribe Mexicano, conoce las maravillas que Cancún tiene para ti. Disfruta de las playas más hermosas del mundo, conoce la cultura maya y su gastronomía, y vive la experiencia de nadar con delfines. ¡No te lo puedes perder!',
   }
 }
 
@@ -64,20 +64,20 @@ const caracas = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -121,9 +121,9 @@ const caracas = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive la experiencia de hospedarte en el hotel más lujoso de Caracas, con una ubicación privilegiada en la zona financiera y comercial de la ciudad. Disfruta de la mejor gastronomía en nuestros restaurantes y bares, y relájate en nuestras habitaciones y suites con vistas panorámicas a la ciudad.'
   }
 }
 
@@ -137,20 +137,20 @@ const florida = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -197,9 +197,9 @@ const florida = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive la experiencia de viajar a los mejores destinos del mundo con la mejor tarifa garantizada.'
   }
 }
 
@@ -207,30 +207,30 @@ const hyatt = {
   secondHeroUrl: '/assets/img/TIEMPOS_COMPARTIDOS/HYATT_REGENCY/HYATT_REGENCY_1.jpg',
   imageRightContent: {
     title: 'Hyatt Regency',
-    desc: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.',
+    desc: 'El Hyatt Regency Mexico City se encuentra en el corazón de Polanco, siendo uno de los más exclusivos hoteles de Ciudad de México.  La Zona de Polanco es el lugar perfecto para explorar el arte, la cultura, las tiendas, los restaurantes y entre otras actividades. Está ubicado a pocos pasos del Auditorio Nacional, el Museo de Antropología y el destacado Bosque de Chapultepec.',
     image: '/assets/img/TIEMPOS_COMPARTIDOS/HYATT_REGENCY/HYATT_REGENCY_3.jpg'
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
     image: '/assets/img/TIEMPOS_COMPARTIDOS/HYATT_REGENCY/HYATT_REGENCY_2.jpg',
-    amenities: ['Amenidad 1', 'Amenidad 2']
+    amenities: ['Wifi gratis', '4 restaurantes, incluido Teppan Grill', 'Gimnasio', 'Canchas de tenis', 'Centro de negocios', 'Minibar', 'Café', 'Batas y pantuflas', 'Comida en la habitación las 24hrs']
   },
   treeCards: [
     {
@@ -253,9 +253,9 @@ const hyatt = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive la experiencia de hospedarte en un hotel de lujo, con todas las comodidades y servicios que necesitas para disfrutar de unas vacaciones inolvidables.'
   }
 }
 
@@ -269,20 +269,20 @@ const lasVegas = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -330,9 +330,9 @@ const lasVegas = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive la experiencia de hospedarte en uno de los hoteles más lujosos de Las Vegas, conoce sus instalaciones y disfruta de sus amenidades.'
   }
 }
 
@@ -345,20 +345,20 @@ const losCabos = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -393,9 +393,9 @@ const losCabos = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive la experiencia de hospedarte en uno de los hoteles más lujosos de Los Cabos, conoce sus instalaciones y disfruta de sus amenidades.'
   }
 }
 
@@ -409,20 +409,20 @@ const mazatlan = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -466,9 +466,9 @@ const mazatlan = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive la experiencia de hospedarte en uno de los hoteles más lujosos de Mazatlán, conoce sus instalaciones y disfruta de sus amenidades.'
   }
 }
 
@@ -483,20 +483,20 @@ const vallarta = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -556,9 +556,9 @@ const vallarta = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas la oportunidad de conocer este destino',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Ven a disfrutar de las maravillas que Vallarta tiene para ti. Conoce sus playas, su gente y su cultura. ¡No te arrepentirás!'
   }
 }
 
@@ -957,26 +957,26 @@ const puertoVallarta = {
 const marriotCancun = {
   secondHeroUrl: '/assets/img/TIEMPOS_COMPARTIDOS/JW_MARRIOTT_CANCUN_RESORT_SPA/cancun2.jpg',
   imageRightContent: {
-    title: 'JW MARRIOTT CANCUN RESORT & SPA',
+    title: 'JW Marriott Cancun Resort & Spa',
     desc: 'Bienvenido al JW Marriott Cancun Resort & Spa. Un refugio frente al mar donde el lujo, el impecable servicio y la hospitalidad mexicana se combinan para complacer a los clientes más exigentes. Cada habitación le ofrece la comodidad de una lujosa residencia, enmarcada con la maravillosa vista del mar Caribe.',
     image: '/assets/img/TIEMPOS_COMPARTIDOS/JW_MARRIOTT_CANCUN_RESORT_SPA/cancun.jpg'
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -1020,9 +1020,9 @@ const marriotCancun = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive la experiencia de hospedarte en uno de los mejores hoteles de Cancún, con una ubicación privilegiada y una vista espectacular al mar Caribe. Disfruta de las instalaciones de primer nivel, de la gastronomía de clase mundial y de la atención personalizada que te brindará el personal del hotel.'
   }
 }
 
@@ -1035,20 +1035,20 @@ const inkHotel = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -1091,9 +1091,9 @@ const inkHotel = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas esta oportunidad',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive una experiencia única en Dubái, una de las ciudades más modernas del mundo. Disfruta de sus playas, sus centros comerciales y sus increíbles rascacielos.'
   }
 }
 
@@ -1106,20 +1106,20 @@ const kianiBeachResort = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -1169,9 +1169,9 @@ const kianiBeachResort = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive una experiencia única en el Kiani Beach Resort, un hotel familiar en Creta, Grecia, con todo incluido, que ofrece una amplia gama de servicios e instalaciones de alta calidad. El hotel está situado en una playa de arena azul, con vistas a la bahía de Kiani, a solo 2 km del pueblo de Kalyves, a 15 km de la ciudad de Chania y a 27 km del aeropuerto de Chania.'
   }
 }
 
@@ -1184,20 +1184,20 @@ const loukaBeachBali = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -1238,9 +1238,9 @@ const loukaBeachBali = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive una experiencia única en el Louka Beach Bali, un hotel de 5 estrellas situado en Bali, Indonesia. Disfruta de sus instalaciones y de la belleza de sus playas.'
   }
 }
 
@@ -1253,20 +1253,20 @@ const theGuardsman = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -1313,9 +1313,9 @@ const theGuardsman = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdas esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive una experiencia única en el The Guardsman – Londres Reino Unido, un hotel de 5 estrellas situado en Londres, Reino Unido. Disfruta de sus instalaciones y de la belleza de sus playas.'
   }
 }
 
@@ -1328,20 +1328,20 @@ const anantaraPalazzoNaiadiRome = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -1388,9 +1388,9 @@ const anantaraPalazzoNaiadiRome = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdasd de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Vive la experiencia de alojarte en un palacio del siglo XIX en el corazón de Roma. El hotel está ubicado en la majestuosa Plaza de la República, justo enfrente de las famosas Termas de Diocleciano, que datan del 306 a. C., y a tiro de piedra de los monumentos más emblemáticos de la ciudad. Gracias a esta ubicación tan céntrica, el hotel es ideal tanto para viajes de ocio como de negocios.'
   }
 }
 
@@ -1403,20 +1403,20 @@ const azzapHotelGalata = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
@@ -1459,9 +1459,9 @@ const azzapHotelGalata = {
     }
   ],
   curvedContent: {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'No te pierdasd de esta experiencia',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum, sem ac sollicitudin consequat, dui velit placerat ex, et tincidunt ipsum nibh nec.'
+      'Ven a Estambul y disfruta de una experiencia única en el Azzap Hotel Galata. Este hotel de 5 estrellas está ubicado en el corazón de la ciudad, a pocos pasos de la Torre de Gálata y del Puente de Gálata. El hotel cuenta con un restaurante, un bar y un salón compartido.'
   }
 }
 
@@ -1474,20 +1474,20 @@ const beauquartierParis = {
   },
   cardStarContent: [
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title: 'Ubicación',
+      description: 'Cerca de los principales atractivos turísticos'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Limpieza',
+      description: 'Instalaciones limpias y en buen estado'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Servicio',
+      description: 'Personal amable y atento, dispuesto a ayudar'
     },
     {
-      title: 'Lorem impsum',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+      title: 'Calidad/Precio',
+      description: 'Ofrece una buena relación calidad-precio'
     }
   ],
   imageLeftContent: {
